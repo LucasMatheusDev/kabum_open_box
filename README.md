@@ -11,8 +11,15 @@ Este software tem como objetivo facilitar a compra de produtos mais baratos na l
 
 ## Como Usar?
 
-A utilizacao do software e bem simples,tudo que você precisa fazer é definir as variaveis do arquivo **[main.py](main.py)** e executar o script.
+A utilizacao do software e bem simples,tudo que você precisa fazer é importar as dependencias e definir as variaveis do arquivo **[main.py](main.py)** e executar o script.
 
+### Importando as dependencias 
+
+Rode o comando abaixo para instalar as dependencias do projeto:
+
+```terminal 
+pip install -r requirements.txt
+```
 ### Exemplo de variaveis (Arquivo main.py)
 
 
