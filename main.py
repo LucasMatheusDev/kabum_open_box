@@ -5,10 +5,6 @@ from models.send_email import SendEmailInfo
 from models.user import User
 from search_schedule import search_schedule
 
-
-
-
-
 # seu email da kabum
 kabum_email: str = "example@hotmail.com"
 
@@ -44,7 +40,6 @@ smtp_port = 587
 send_email_info = SendEmailInfo(email_from, email_password, email_to, smtp_server, smtp_port)
 
 user = User(kabum_email, kabum_password)
-
 
 if __name__ == '__main__':
     search_schedule(functools.partial(get_open_box_products, user, send_email_info), hours_to_search)
